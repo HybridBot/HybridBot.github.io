@@ -33,6 +33,7 @@ font-family: 'Times New Roman', Times, serif;
 font-size: x-large;
 font-weight: 500;
 cursor: pointer;
+transition: all;
 }
 .button__text,
 .button__icon {
@@ -50,4 +51,7 @@ cursor: pointer;
 .button__text {
     transform: translate(-20px, 0);
     font-style: italic;
+}
+.button:hover {
+transform: scale(1.2);
 }
