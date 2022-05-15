@@ -18,6 +18,22 @@ transform: translate(0, 150px);
 
 }
 .button {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg,#6850ff,#a750ff);
+    border-radius: 8px;
+    border: 0;
+    font-weight: 500;
+    font-size: 17px!important;
+    line-height: 21px!important;
+    color: #fff;
+    padding: 0 27px;
+    height: 58px;
+    outline: none;
+    unicode-bidi: -moz-plaintext;
+    unicode-bidi: plaintext;
+}
+.button2 {
 position: inherit;
 display: inline-flex;
 width: 180px;
