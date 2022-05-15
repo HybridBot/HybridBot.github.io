@@ -1,1 +1,0 @@
-# Ur daily daddy ;)!
