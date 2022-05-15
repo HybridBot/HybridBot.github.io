@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #131b21;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+color: #fff;
+transform: translate(0, 150px);
+
+}
+.button {
+position: inherit;
+display: inline-flex;
+width: 180px;
+height: 50px;
+padding: 0;
+background: linear-gradient(60deg, #674ffa, #9c50ff);
+border: none;
+outline: 0cm;
+border-radius: 5px;
+overflow: hidden;
+transform: translate(0, -30px);
+font-family: 'Times New Roman', Times, serif;
+font-size: x-large;
+font-weight: 500;
+cursor: pointer;
+}
+.button__text,
+.button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+.button__icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+    transform: translate(-20px, 0);
+}
+.button__text {
+    transform: translate(-20px, 0);
+    font-style: italic;
+}
