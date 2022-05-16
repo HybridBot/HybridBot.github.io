@@ -14,7 +14,7 @@ body {
 .card {
 color: #fff;
 transform: translate(0, 150px);
-
+font-family: 'Courier New', Courier, monospace;
 }
 .button {
 position: inherit;
