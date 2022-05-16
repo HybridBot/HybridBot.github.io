@@ -12,7 +12,10 @@ body {
 }
 
 .card {
-color: #fff;
+font-size: 14px;
+line-height: 17px;
+color: #839bad;
+margin-bottom: 4em;
 transform: translate(0, 150px);
 font-family: 'Courier New', Courier, monospace;
 }
