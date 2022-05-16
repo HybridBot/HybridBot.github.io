@@ -28,12 +28,12 @@ border: none;
 outline: 0cm;
 border-radius: 5px;
 overflow: hidden;
-transform: translate(0, -30px);
+transform: translate(0, 30px);
 font-family: 'Times New Roman', Times, serif;
 font-size: x-large;
 font-weight: 500;
 cursor: pointer;
-transition: all;
+transition: all 600ms;
 }
 .button__text,
 .button__icon {
